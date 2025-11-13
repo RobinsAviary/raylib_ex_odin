@@ -1136,6 +1136,7 @@ foreign lib {
 	GetKeyPressed  	   :: proc() -> KeyboardKey ---          // Get key pressed (keycode), call it multiple times for keys queued
 	GetCharPressed 	   :: proc() -> rune ---                 // Get char pressed (unicode), call it multiple times for chars queued
 	SetExitKey     	   :: proc(key: KeyboardKey) ---         // Set a custom key to exit program (default is ESC)
+	SetScreenshotKey   :: proc(key: KeyboardKey) ---
 
 	// Input-related functions: gamepads
 
